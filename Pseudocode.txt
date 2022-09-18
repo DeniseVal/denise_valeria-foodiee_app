@@ -1,0 +1,45 @@
+Deklarasi :
+makanan, gerai, alamat, voucher : char
+total, jumlah : integer
+kode promo : string
+
+Deskripsi :
+Read (cari makanan);
+makanan  gerai, jenis;
+write (pilih makanan);
+	IF (berdasarkan nama gerai) 
+		Input nama gerai, search
+		PRINT “nama gerai”
+	IF (berdasarkan jenis makanan)
+		Input jenis makanan, search
+		PRINT “jenis makanan”
+
+	ELSE 
+		PRINT “Tidak ditemukan”
+
+END
+
+Read (jumlah);
+jumlah = total item;
+Read (isi keranjang);
+	
+	IF update pesanan
+		Goto search makanan berdasarkan gerai
+
+	ELSE
+		Read Checkout
+
+END
+
+Read (alamat);
+	IF alamat = terkonfirmasi
+		Input kode promo
+
+Read (total pembayaran)
+	IF Pembayaran = terkonfirmasi
+		PRINT pesanan diproses
+	
+	ELSE
+		PRINT “Menunggu pembayaran”
+
+END
